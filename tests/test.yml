@@ -1,5 +1,5 @@
 - hosts: all
-
+  sudo: true
   vars:
     ntp_enabled: false
     ntp_manage_config: true
